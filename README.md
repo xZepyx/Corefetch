@@ -36,7 +36,8 @@ Displays clean system info with ASCII art directly in your terminal — no depen
  Run the install.sh script by:
  
  ```bash
- ./install.sh
+ chmod +x install.sh
+ sudo ./install.sh
  ```
  
  #📁 Configuration
