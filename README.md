@@ -1,4 +1,6 @@
 cl#  CoreFetch (C++ Edition)
+Note - This software has no means no compete with neofetch or fastfetch its just neofetch alternative which i developed for my understanding in c++
+Corefetch is a very basic app and does not contain some important features that a fetch application like fastfetch and neofetch contains. 
 
 A blazing-fast, minimal, and customizable Neofetch alternative written in C++.
 
