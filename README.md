@@ -1,4 +1,4 @@
-cl# 🌀 CoreFetch (C++ Edition)
+cl#  CoreFetch (C++ Edition)
 
 A blazing-fast, minimal, and customizable Neofetch alternative written in C++.
 
@@ -6,7 +6,7 @@ Displays clean system info with ASCII art directly in your terminal — no depen
 
 ---
 
-## 📸 Preview
+##  Preview
 
 ```yaml
                    -`                     User     : aditya
@@ -40,7 +40,7 @@ Displays clean system info with ASCII art directly in your terminal — no depen
  sudo ./install.sh
  ```
  
- #📁 Configuration
+ # Configuration
  
  Config file at:
 ```bash
@@ -60,7 +60,7 @@ Displays clean system info with ASCII art directly in your terminal — no depen
     Preset logos per distro
 
 
-#🧠 Planned Features
+# Planned Features
 
     --no-color flag
 
@@ -70,23 +70,23 @@ Displays clean system info with ASCII art directly in your terminal — no depen
 
     User-defined order of info rows
 
-#📜 License
+# License
 
 This project is open-source and free to use under the MIT License.
 🛠️ Built With
 
-    💻 C++
+     C++
 
-    🧠 Standard Linux system files: /proc, /etc/os-release
+     Standard Linux system files: /proc, /etc/os-release
 
-    🐧 Compatible with any Linux distribution
+     Compatible with any Linux distribution
     
     
-#📄 License
+# License
 
  MIT License
  
-#💬 Contributing
+# Contributing
 
 Pull requests and feedback, welcome.
 If you like it, don't forget to ⭐ star the repo!
