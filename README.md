@@ -94,3 +94,7 @@ This project is open-source and free to use under the MIT License.
 
 Pull requests and feedback, welcome.
 If you like it, don't forget to ⭐ star the repo!
+
+# Discontinued
+This project has been officially discontinued There will be no update received to it anymore after 12/7/2025 and no bugs or issues will be likely fixed. 
+It already have some bugs as I know but they won't be fixed. Feel free to fork just give the credit for the base of your fork.
