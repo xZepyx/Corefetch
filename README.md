@@ -1,16 +1,13 @@
-cl#  CoreFetch (C++ Edition)
+# Corefetch (C++ Edition)
 
+**Corefetch** is a blazing-fast, minimal, and customizable Neofetch alternative written in C++.
 
-Note - This software has no means no compete with neofetch or fastfetch its just neofetch alternative which i developed for my understanding in c++
-Corefetch is a very basic app and does not contain some important features that a fetch application like fastfetch and neofetch contains. 
-
-A blazing-fast, minimal, and customizable Neofetch alternative written in C++.
-
-Displays clean system info with ASCII art directly in your terminal — no dependencies required.
+> **Note:**  
+> Corefetch was built as a learning project and is not meant to compete with Neofetch or Fastfetch. It’s a simple, lightweight alternative for displaying system info with ASCII art in your terminal—no dependencies required.
 
 ---
 
-##  Preview
+## 🚀 Preview
 
 ```yaml
                    -`                     User     : aditya
@@ -26,75 +23,77 @@ Displays clean system info with ASCII art directly in your terminal — no depen
          ./ooosssso++osssssso+`           Memory   : 1763MiB / 3679MiB
         .oossssso-````/ossssss+`          GPU      : Intel UHD 620
        -osssssso.      :ssssssso. 
-      :osssssss/        osssso+++. 
+      :osssssss/        osssso+++.
      /ossssssss/        +ssssooo/- 
    `/ossssso+/:-        -:/+osssso+- 
   `+sso+:-`                 `.-/+oso: 
  `++:.                           `-/+/
- .`                                 `/ 
- 
- ```
- 
- #How to Install
- 
- Run the install.sh script by:
- 
- ```bash
- chmod +x install.sh
- sudo ./install.sh
- ```
- 
- # Configuration
- 
- Config file at:
-```bash
- ~/.config/corefetch/ascii
+ .`                                 `/
 ```
 
-## Currently, CoreFetch supports ASCII customization.
+---
 
-    Future plans include a config file at ~/.config/corefetch/config to toggle:
+## ⚡ Installation
 
-    Colors
+Run the install script:
+```bash
+chmod +x install.sh
+sudo ./install.sh
+```
 
-    Field order
+---
 
-    Minimal mode
+## ⚙️ Configuration
 
-    Preset logos per distro
+Customize your ASCII art:
+```bash
+~/.config/corefetch/ascii
+```
+Just edit the file to change the displayed logo.
+
+### Planned Configuration Options
+
+- Colors
+- Field order
+- Minimal mode
+- Preset logos per distro
+
+Future config file location:  
+```bash
+~/.config/corefetch/config
+```
+
+---
+
+> ![status: discontinued](https://img.shields.io/badge/status-discontinued-red)
+> ![maintenance: none](https://img.shields.io/badge/maintenance-none-lightgrey)
 
 
-# Planned Features
+---
 
-    --no-color flag
+## 🛠️ Tech
 
-    Auto-pick ASCII based on distro
+- Written in **C++**
+- Uses standard Linux system files: `/proc`, `/etc/os-release`
+- Compatible with any Linux distribution
 
-    Support for multiple themes
+---
 
-    User-defined order of info rows
+## 📜 License
 
-# License
+MIT License — free to use, modify, and share.
 
-This project is open-source and free to use under the MIT License.
-🛠️ Built With
+---
 
-     C++
+## 🤝 Contributing
 
-     Standard Linux system files: /proc, /etc/os-release
+Pull requests and feedback are welcome!  
+If you enjoy Corefetch, please ⭐ star the repo.
 
-     Compatible with any Linux distribution
-    
-    
-# License
+---
 
- MIT License
- 
-# Contributing
+## 🚫 Discontinued
 
-Pull requests and feedback, welcome.
-If you like it, don't forget to ⭐ star the repo!
-
-# Discontinued
-This project has been officially discontinued There will be no update received to it anymore after 12/7/2025 and no bugs or issues will be likely fixed. 
-It already have some bugs as I know but they won't be fixed. Feel free to fork just give the credit for the base of your fork.
+This project is officially discontinued as of July 12, 2025.  
+No further updates or bug fixes will be provided.  
+Feel free to fork and build upon it—just credit the base!
